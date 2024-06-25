@@ -59,6 +59,8 @@ Dies ist ein Beispielprojekt zur Demonstration der Verwendung von Dev-Containern
     height="40"
   >
 </a>
+
+
 ### 2. Projekt in VS Code öffnen
  
 - Öffnen Sie Visual Studio Code.
