@@ -9,8 +9,6 @@ RUN a2enmod rewrite
 # Set work directory
 WORKDIR /var/www/html
 
-USER root
-
 # Copy the application files
 COPY src/ /var/www/html/
 
