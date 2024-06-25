@@ -51,15 +51,15 @@ Dies ist ein Beispielprojekt zur Demonstration der Verwendung von Dev-Containern
 ### 1. Projekt herunterladen
  
 - Drücken Sie im Github Repository auf den Dev Container Open knopf
- 
-### 2. Projekt in VS Code öffnen
-<a href="https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/Timonschool/M169-LB.git">
+- 
+ <a href="https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/Timonschool/M169-LB.git">
   <img 
     src="https://img.shields.io/badge/Open_in-DevContainer-blue?logo=visual-studio-code" 
     alt="Open in DevContainer" 
     height="40"
   >
 </a>
+### 2. Projekt in VS Code öffnen
  
 - Öffnen Sie Visual Studio Code.
  
