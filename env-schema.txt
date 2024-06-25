@@ -1,0 +1,10 @@
+# .env Datei Schema
+
+Die `.env` Datei sollte folgende Struktur haben:
+
+```
+MYSQL_ROOT_PASSWORD=rootpassword
+MYSQL_DATABASE=mydatabase
+MYSQL_USER=user
+MYSQL_PASSWORD=password
+```
