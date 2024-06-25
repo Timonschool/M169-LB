@@ -12,14 +12,14 @@ WORKDIR /var/www/html
 # Copy the application files
 COPY src/ /var/www/html/
 
-# Change owner of /var/www to www-data
-RUN chown -R www-data:www-data /var/www
+# Change owner of /var/www to www-data and set permissions
+RUN chown -R www-data:www-data /var/www && chmod -R 755 /var/www
+
+# Debugging step to check permissions and user
+RUN ls -ld /var/www /var/www/html && ls -l /var/www/html
+RUN whoami
 
 # Expose port
 EXPOSE 80
-
-# Ensure correct permissions
-RUN chmod -R 755 /var/www
-
 
 
